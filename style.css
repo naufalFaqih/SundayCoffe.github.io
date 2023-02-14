@@ -1,0 +1,196 @@
+body {
+  font-family: 'poppins';
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'poppins-Bold';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.coffe {
+  color: aquamarine;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'poppins-Black';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: teal;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'poppins-Light';
+}
+
+/* Buttons */
+
+.download-button {
+  border: none;
+  text-decoration: none;
+}
+
+/* Title Section */
+
+#title {
+  background-color: teal;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 80%;
+  position: absolute;
+  right: 10%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+  top: 0px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.card {
+  margin: 0 1%;
+}
+
+.icon {
+  color: teal;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: teal;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  background-size: cover;
+}
+
+#press {
+  background-color: teal;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 80px;
+}
+
+.fform {
+  padding: 30px;
+}
+.form-control {
+  padding: 4px 10px;
+  margin-bottom: 10px;
+}
+
+#fluid {
+  padding: 10px;
+  width: 500px;
+}
+
+.fform .btn {
+  margin-top: 20px;
+}
+
+select {
+  text-align: center;
+}
+/* CTA Section */
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

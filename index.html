@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SundayCoffee</title>
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@500&display=swap" rel="stylesheet" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- script bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section id="title" class="colored-section">
+      <div class="container-fluid">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a href="" class="navbar-brand">Sunday<span class="coffe">Coffee</span></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pemesanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">SundayCoffee cocok untuk menemani aktifitasmu</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fas fa-arrow-circle-down"></i> <a href="#pricing">Pesan sekarang</a></button>
+          </div>
+
+          <div class="col-lg-6">
+            <img class="title-image" src="coffe.svg" alt="coffe" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <h2 class="section-heading">About Us</h2>
+        <p>Kami Menyediakan Coffee Dengan Kualitas Terbaik</p>
+        <div class="row">
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card" style="width: 18rem">
+              <img class="card-img-top" src="avocado.jpeg" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Avocado Coffee</h5>
+                <p class="card-text">Dibuat untuk kamu yang suka dengan aroma khas dari alpukat dan dipadukan dengan kopi</p>
+                <a href="#" class="btn btn-primary">Rp. 25.000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card" style="width: 18rem">
+              <img class="card-img-top" src="americano.jpeg" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Americano Coffee</h5>
+                <p class="card-text">Kopi yang paling cocok dinikmati disaat cuaca dingin dan menikmati indahnya senja.</p>
+                <a href="#" class="btn btn-primary">Rp. 15.000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-lg-4">
+            <div class="card" style="width: 18rem">
+              <img class="card-img-top" src="cappucino.jpeg" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Cappucino Coffee</h5>
+                <p class="card-text">Kopi cappucino ini cocok menemanimu disaat pagi hari ditemani dengan gorengan.</p>
+                <a href="#" class="btn btn-primary">Rp. 20.000</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">Saya sangat senang bisa mencoba kopi yang dibuat oleh SundayCoffee</h2>
+            <img class="testimonial-image" src="1.JPG" alt="avatar" />
+            <em>Naufal, Bandung</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">SundayCoffee tidak pernah gagal menyajikan kopi yan berkualitas</h2>
+            <img class="testimonial-image" src="naufal.jpg" alt="avatar" />
+            <em>Anggito, Solo</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">Pilih Apa yang Anda Ingin Pesan</h2>
+      <p>Simple and affordable price plans for you.</p>
+      <form class="fform">
+        <div class="container-fluid" id="fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <label>Nama Barang:</label>
+              <select class="form-control" id="barang" onchange="harga()">
+                <option>--pilih--</option>
+                <option value="Americano Coffe">Americano Coffe</option>
+                <option value="Cappucino Coffe">Cappucino Coffe</option>
+                <option value="Avocado Coffe">Avocado Coffe</option>
+              </select>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <label>Kode Barang:</label>
+              <select class="form-control" placeholder="Pilih pesanan anda">
+                <option>--pilih--</option>
+                <option value="106234">106234</option>
+                <option value="203465">203465</option>
+                <option value="357289">357289</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <label>quantity:</label>
+              <input type="number" class="form-control" min="1" max="10" id="quantity" onchange="harga()" />
+            </div>
+
+            <div class="col-lg-6">
+              <label>Harga:</label>
+              <input type="text" class="form-control" readonly id="outputHarga" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <label>Total:</label>
+              <input type="text" class="form-control" id="total" readonly />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <label>Bayar:</label>
+              <input type="number" class="form-control" id="bayar" min="15000" step="5000" />
+            </div>
+
+            <div class="col-lg-6">
+              <label>Kembalian:</label>
+              <input type="text" class="form-control" id="kembalian" readonly />
+            </div>
+          </div>
+          <button type="button" class="btn btn-dark btn-md download-button" onclick="buy()">Bayar</button>
+          <button type="reset" class="btn btn-dark btn-md download-button">reset</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h3 class="big-heading">Temukan Cita Rasa Kopi Favoritmu Bersama SundayCoffee</h3>
+        <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+        <button class="download-button btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyright 2023 SundayCoffee</p>
+      </div>
+    </footer>
+  </body>
+</html>
